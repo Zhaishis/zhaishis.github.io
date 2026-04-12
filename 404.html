@@ -2,14 +2,15 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>301 Moved Permanently</title>
+<title>404 Not Found</title>
 <meta http-equiv="refresh" content="0; url=https://zhaishis.com">
 <script>
-location.replace("https://zhaishis.com" + location.pathname);
+// 无论原路径是什么，都强制跳转到新域名首页
+window.location.replace("https://zhaishis.com");
 </script>
 </head>
 <body>
-<h1>301 Moved Permanently</h1>
-<p>页面已迁移：<a href="https://zhaishis.com">zhaishis.com</a></p>
+<h1>404 Not Found</h1>
+<p>页面不存在，正在跳转到博客首页：<a href="https://zhaishis.com">zhaishis.com</a></p>
 </body>
 </html>
